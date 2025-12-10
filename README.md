@@ -16,14 +16,6 @@
 - [ ] **TC-004**: Открыть страницу Карьера
 
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
-
-**Configure:**
-- **Repository:** `https://github.com/EkaterinaMelnikova/ya_finance_tests.git` *(SCM > Git)*
-- **Branch:** `*/main` *(SCM > Branches to build)*
-- **Gradle Version:** `Gradle 8.12` *(Build Steps > Invoke Gradle)*
-- **Command:** `clean finance_test` *(Build Steps > Tasks)*
-- **Allure Path:** `build/allure-results/` *(Allure Report)*
 
 
 <p align="center">
