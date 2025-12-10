@@ -21,19 +21,12 @@
 
 ### Результат выполнения теста
 
-Allure-отчет включает в себя:
-* шаги выполнения тестов;
-* скриншот страницы в браузере в момент окончания автотеста;
-* Page Source;
-* логи браузерной консоли;
-* видео выполнения автотеста.
-
 <p align="center">
-<img title="Allure Overview" src="images/screenshots/allure_report.png">
+<img title="Allure Overview" src="images/screenshots/allure_report_vtbf.png">
 </p>
 
 <p align="center">
-<img title="Test Results in Alure" src="images/screenshots/allure_steps.png">
+<img title="Test Results in Alure" src="images/screenshots/allure_steps_vtbf.png">
 </p>
 
 <p>Пример видео из Selenoid</p>
