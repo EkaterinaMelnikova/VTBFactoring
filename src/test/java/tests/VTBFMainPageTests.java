@@ -9,12 +9,8 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class VTBFMainPageTests {
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "https://www.vtbf.ru";
-    }
+public class VTBFMainPageTests extends TestBase {
+
     @Test
     void OpenAboutCompanyTest() {
 
