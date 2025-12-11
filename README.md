@@ -31,5 +31,5 @@
 
 <p>Пример видео из Selenoid</p>
 <p align="center">
-  <img title="allure_video" src="images/video/allure_video.gif">
+  <img title="allure_video" src="images/video/bandicam.mp4">
 </p>
