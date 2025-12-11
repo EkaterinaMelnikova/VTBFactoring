@@ -1,4 +1,4 @@
-# Проект по автоматизации тестирования приложения www.vtbf.ru
+# MVP-проект по автоматизации тестирования приложения www.vtbf.ru
 <img width="100%" style="vertical-align:middle" title="vtbf.ru" src="images/screenshots/vtbf.png">
 
 ## :open_book: Описание
@@ -29,7 +29,8 @@
 <img title="Test Results in Alure" src="images/screenshots/allure_steps_vtbf.png">
 </p>
 
-<p>Пример видео из Selenoid</p>
+### Видео исполнения теста
+
 <p align="center">
-  <img title="allure_video" src="images/video/bandicam.mp4">
+  <img title="bandicam_video" src="images/video/bandicam.gif">
 </p>
