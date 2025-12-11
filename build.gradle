@@ -37,8 +37,8 @@ allure {
 }
 
 
-tasks.register('demoqa_test', Test) {
+tasks.register('finance_test', Test) {
     useJUnitPlatform {
-        includeTags("demoqa")
+        includeTags("finance")
     }
 }

@@ -2,6 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 
@@ -9,7 +10,15 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class VTBFMainPageTests extends TestBase {
+public class VTBFMainPageTests  {
+
+
+    @BeforeAll
+    static void beforeAll() {
+        Configuration.browserSize = "1920x1080";
+        Configuration.baseUrl = "https://www.vtbf.ru";
+    }
+
 
     @Test
     void OpenAboutCompanyTest() {
@@ -33,6 +42,7 @@ public class VTBFMainPageTests extends TestBase {
         sleep(1000);
     }
 
+
     @Test
     void OpenСasesTest() {
 
@@ -42,6 +52,7 @@ public class VTBFMainPageTests extends TestBase {
         $(".b-section").shouldHave(text("Кейсы"));
         sleep(1000);
     }
+
 
     @Test
     void OpenСareerFooterTest() {
